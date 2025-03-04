@@ -58,14 +58,32 @@ header a{
     font-weight: bold;
     letter-spacing: 10px;
 }
-.carousel .list .item .title,
+
+.carousel .list .item .title{
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-shadow: 0 5px 10px #0004;
+}
+
 .carousel .list .item .topic{
     font-size: 5em;
     font-weight: bold;
     line-height: 1.3em;
+    text-shadow: 0 5px 10px #0004;
 }
+
+.carousel .list .item .des{
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+    color: #f18b5b;
+    text-shadow: 0 5px 10px #0004;
+}
+
+
 .carousel .list .item .topic{
-    color: #f1683a;
+    color: #d9ff00;
 }
 .carousel .list .item .buttons{
     display: grid;
@@ -180,6 +198,7 @@ header a{
 .carousel .list .item:nth-child(1) .content .topic{
     animation-delay: 1.4s!important;
 }
+
 .carousel .list .item:nth-child(1) .content .des{
     animation-delay: 1.6s!important;
 }
@@ -308,6 +327,6 @@ header a{
         padding-right: 0;
     }
     .carousel .list .item .content .title{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
