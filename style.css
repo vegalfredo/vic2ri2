@@ -89,16 +89,16 @@ header a{
 /* thumbail */
 .thumbnail{
     position: absolute;
-    bottom: 20px;
-    left: 20%;
+    bottom: 40px;
+    left: 40%;
     width: max-content;
     z-index: 100;
     display: flex;
     gap: 20px;
 }
 .thumbnail .item{
-    width: 150px;
-    height: 220px;
+    width: 100px;
+    height: 100px;
     flex-shrink: 0;
     position: relative;
 }
