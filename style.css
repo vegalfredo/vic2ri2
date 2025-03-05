@@ -58,13 +58,25 @@ header a{
 }
 
 .carousel .list .item .author {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     position: relative;
     text-align: center; /* Centrar el texto */
     width: auto;
-    padding: 15px 0;
+    padding: 5px 0;
+}
+
+
+.carousel .list .item .author2 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center; /* Centrar el texto */
+    width: auto;
+    padding: 5px 0;
+    color: #2bc7e2;
 }
 
 .carousel .list .item .title{
@@ -74,11 +86,19 @@ header a{
     text-shadow: 0 5px 10px #0004;
 }
 
+.carousel .list .item .title2{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.3em;
+    color: #f0aa15;
+    text-shadow: 0 5px 10px rgb(5, 5, 5);
+}
+
 .carousel .list .item .topic{
     font-size: 4em;
     font-weight: bold;
     line-height: 40px;
-    text-shadow: 0 5px 10px #0004;
+    text-shadow: 0 5px 10px rgb(5, 5, 5);
 }
 
 .carousel .list .item .des{
@@ -183,7 +203,9 @@ header a{
 /* animation text in first item */
 
 .carousel .list .item:nth-child(1) .content .author,
+.carousel .list .item:nth-child(1) .content .author2,
 .carousel .list .item:nth-child(1) .content .title,
+.carousel .list .item:nth-child(1) .content .title2,
 .carousel .list .item:nth-child(1) .content .topic,
 .carousel .list .item:nth-child(1) .content .des,
 .carousel .list .item:nth-child(1) .content .buttons
