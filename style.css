@@ -72,7 +72,8 @@ header a {
 }
 
 .carousel .list .item .author2 {
-    color: #2bc7e2;
+    color: #53f06d;
+    text-shadow: 0 5px 10px #0004;
 }
 
 .carousel .list .item .title {
@@ -100,7 +101,7 @@ header a {
 
 .carousel .list .item .topic3 {
     color: #ff008c;
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
     line-height: 40px;
     text-shadow: 0 5px 10px rgb(5, 5, 5);
