@@ -369,4 +369,19 @@ header a {
     .carousel .list .item .content .title {
         font-size: 20px;
     }
+
+    .carousel .list .item .topic3 {
+        color: #ff008c;
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 40px;
+        text-shadow: 0 5px 10px rgb(5, 5, 5);
+    }
+
+
+
+
+
+
+
 }
