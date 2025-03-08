@@ -107,6 +107,16 @@ header a {
     text-shadow: 0 5px 10px rgb(5, 5, 5);
 }
 
+
+.carousel .list .item .topic4 {
+    color: #b6f112;
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 50px;
+    text-shadow: 0 5px 10px rgb(5, 5, 5);
+}
+
+
 .carousel .list .item .des {
     font-size: 1.5em;
     font-weight: bold;
@@ -171,6 +181,8 @@ header a {
 
 .thumbnail .item .content .title {
     font-weight: 500;
+    font-size: 3em;
+    color:#f0aa15;
 }
 
 .thumbnail .item .content .description {
@@ -215,7 +227,9 @@ header a {
 .carousel .list .item:nth-child(1) .content .title,
 .carousel .list .item:nth-child(1) .content .title2,
 .carousel .list .item:nth-child(1) .content .topic,
+.carousel .list .item:nth-child(1) .content .topic2,
 .carousel .list .item:nth-child(1) .content .topic3,
+.carousel .list .item:nth-child(1) .content .topic4,
 .carousel .list .item:nth-child(1) .content .des,
 .carousel .list .item:nth-child(1) .content .buttons {
     transform: translateY(50px);
@@ -237,6 +251,18 @@ header a {
 }
 
 .carousel .list .item:nth-child(1) .content .topic {
+    animation-delay: 1.4s;
+}
+
+.carousel .list .item:nth-child(1) .content .topic2 {
+    animation-delay: 1.4s;
+}
+
+.carousel .list .item:nth-child(1) .content .topic3 {
+    animation-delay: 1.4s;
+}
+
+.carousel .list .item:nth-child(1) .content .topic4 {
     animation-delay: 1.4s;
 }
 
@@ -349,6 +375,9 @@ header a {
 .carousel.prev .list .item:nth-child(2) .content .author,
 .carousel.prev .list .item:nth-child(2) .content .title,
 .carousel.prev .list .item:nth-child(2) .content .topic,
+.carousel.prev .list .item:nth-child(2) .content .topic2,
+.carousel.prev .list .item:nth-child(2) .content .topic3,
+.carousel.prev .list .item:nth-child(2) .content .topic4,
 .carousel.prev .list .item:nth-child(2) .content .des,
 .carousel.prev .list .item:nth-child(2) .content .buttons {
     animation: contentOut 1.5s linear 1 forwards;
@@ -371,17 +400,67 @@ header a {
     }
 
     .carousel .list .item .topic3 {
-        color: #c600f8;
-        font-size: 2em;
+        color: #ec31a5;
+        font-size: 3em;
         font-weight: bold;
-        line-height: 40px;
-        text-shadow: 0 5px 10px rgb(5, 5, 5);
+        line-height: 30px;
+        animation: glow 2s infinite; /* Aplica la animación */
+        text-shadow: 
+        1px 1px 1.5px black, /* Borde negro sutil */
+        -1px -1px 1.5px black, /* Borde negro sutil */
+        0 0 10px #ec31a5, /* Sombra 1: Brillo cercano */
+        0 0 20px #ec31a5, /* Sombra 2: Brillo medio */
+        0 0 30px #ec31a5, /* Sombra 3: Brillo lejano */
+        0 0 40px #ec31a5; /* Sombra 4: Brillo más difuminado*/
     }
 
 
+    .carousel .list .item .topic4 {
+        color: #b6f112;
+        font-size: 1.5em;
+        font-weight: bold;
+        line-height: 30px;
+        animation: glow 2s infinite; /* Aplica la animación */
+        text-shadow: 
+        1px 1px 1px black, /* Borde negro sutil */
+        -1px -1px 1px black, /* Borde negro sutil */
+        0 0 10px #b6f112, /* Brillo cercano */
+        0 0 15px #b6f112, /* Brillo medio */
+        0 0 20px #b6f112, /* Brillo lejano */
+        0 0 10px #b6f112; /* Brillo más difuminado */
+    }
 
 
+    .carousel .list .item .topic {
+        color: #08f800d7;
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 30px;
+        animation: glow 2s infinite; /* Aplica la animación */
+        text-shadow: 
+        1px 1px 1.5px black, /* Borde negro sutil */
+        -1px -1px 1.5px black, /* Borde negro sutil */
+        0 0 10px #08f800d7, /* Sombra 1: Brillo cercano */
+        0 0 20px #08f800d7, /* Sombra 2: Brillo medio */
+        0 0 30px #08f800d7, /* Sombra 3: Brillo lejano */
+        0 0 40px #08f800d7; /* Sombra 4: Brillo más difuminado*/
+    }
 
 
-
+    .carousel .list .item .topic2 {
+        color: #09eedb;
+        font-size: 1.5em;
+        font-weight: bold;
+        line-height: 30px;
+        animation: glow 2s infinite; /* Aplica la animación */
+        text-shadow: 
+        1px 1px 1.5px black, /* Borde negro sutil */
+        -1px -1px 1.5px black, /* Borde negro sutil */
+        0 0 10px #09eedb, /* Brillo cercano */
+        0 0 15px #09eedb, /* Brillo medio */
+        0 0 20px #09eedb, /* Brillo lejano */
+        0 0 10px #09eedb; /* Brillo más difuminado */
+    }
+    
 }
+
